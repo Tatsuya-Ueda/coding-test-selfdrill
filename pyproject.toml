@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "coding-test-selfdrill"
+version = "0.1.0"
+description = ""
+authors = ["t_ueda <74095322+Tatsuya-Ueda@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "coding_test_selfdrill"}]
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+black = "^23.3.0"
+flake8 = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
